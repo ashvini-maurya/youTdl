@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube video downloader plugin",
+  "description": "This extension will allow to store the current youtube URL and later download the videos.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
