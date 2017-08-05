@@ -73,7 +73,17 @@
 
   function updateSigninStatus(isSignedIn) {
     setSigninStatus();
+    getEmail();
   }
+
+
+// get user email
+  function getEmail(isSignedIn) {
+    var user = GoogleAuth.currentUser.get();
+    console.log(user.w3.U3);
+  }
+
+
 </script>
 
 <button id="sign-in-or-out-button"
